@@ -37,6 +37,7 @@
 
   @media print {
     .doc {
+      font-family: font-inter, sans-serif;
       display: flex;
       flex-direction: row;
       height: 100%;

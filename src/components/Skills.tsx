@@ -3,14 +3,14 @@ import { cn } from "@/lib/utils"
 
 const RatingClasses: { [key in Rating]: string } = {
   excelent: "w-full",
-  very_good: "w-5/6",
+  advanced: "w-5/6",
   intermediate: "w-1/2",
   beginner: "w-1/4",
 }
 
 const RatingLabel: { [key in Rating]: string } = {
-  excelent: "Excelent",
-  very_good: "Very Good",
+  excelent: "Expert",
+  advanced: "Advanced",
   intermediate: "Intermediate",
   beginner: "Beginner",
 }

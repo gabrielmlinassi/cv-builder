@@ -57,7 +57,7 @@ const CV = forwardRef<HTMLDivElement>((props, ref) => {
           <div>
             <h4 className="font-bold text-white">Address</h4>
             <p className="text-sm text-white">
-              <span>RS, Brazil</span>
+              <span>Rio de Janeiro, Brazil</span>
             </p>
           </div>
           <div className="mt-3">
@@ -83,82 +83,121 @@ const CV = forwardRef<HTMLDivElement>((props, ref) => {
 
       <div className="bg-white p-6">
         <p className="line-clamp-5 text-sm leading-relaxed text-gray-700">
-          Front-End Engineer with 5 years of experience with detailed understanding in developing
+          {/* Front-End Engineer with 5 years of experience with detailed understanding in developing
           modern and responsive interfaces for a wide range of businesses. Excellent grasp of React,
           Nextjs, TS, Redux, Best Practices, Testing, REST and GraphQL. Also starting to get more
-          familiarized with ReactNative and Python
+          familiarized with ReactNative and Python */}
+          Software Engineer with expertise in Front-End development. Over 5 years of experience
+          developing modern and performant web applications for a wide range of businesses. Well
+          familiar with Javascript, TypeScript, React and studying React Native and Node. Enjoys
+          spending time learning and sharing knowledge with the community.
         </p>
         {/* Work history */}
         <div className="mt-4 border-t-2 border-b-2 border-gray-100 py-1">
           <h3 className="text-lg font-bold text-blue-500">Work History</h3>
         </div>
-        <div className="mt-4 grid grid-cols-4 gap-y-2">
+        <div className="mt-4 grid grid-cols-4 gap-y-4">
+          {/* Work #1 */}
+          <div className="col-span-1 text-sm text-gray-700">
+            <div>2022-07 - </div>
+            <div>Present</div>
+            <div className="mt-1 text-xs text-gray-500">1yr 3mos</div>
+          </div>
+          <div className="col-span-3">
+            <h4 className="text-lg font-bold text-gray-800">Full-Stack Developer</h4>
+            <p className="text-sm italic text-gray-700">Suvie, US (remote)</p>
+            <ul className="ml-4 list-disc">
+              <li className="text-sm leading-normal text-gray-700">
+                Refactoring company&apos;s site from CSR to SSG. SEO and lighthouse scores were
+                hugely improved
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Merge various projects into a monorepo (Turborepo) to allow code sharing. Resulted
+                in better DX and DRY code
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Maintenance of mobile app built in React Native
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Add feature flags for marketing strategies and conversion
+              </li>
+            </ul>
+          </div>
+
+          {/* Work #1 */}
+          <div className="col-span-1 text-sm text-gray-700">
+            <div>2020-11 - </div>
+            <div>2022-05</div>
+            <div className="mt-1 text-xs text-gray-500">1yrs 7mos</div>
+          </div>
+          <div className="col-span-3">
+            <h4 className="text-lg font-bold text-gray-800">Front-End Developer</h4>
+            <p className="text-sm italic text-gray-700">SweetRush Inc., US (remote)</p>
+            <ul className="ml-4 list-disc">
+              <li className="text-sm leading-normal text-gray-700">
+                Refactoring a Shopify store to use Hydrogen React
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Development of landing pages for marketing campaigns
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Migration of site from WordPress to Headless WP + Next.js
+              </li>
+            </ul>
+          </div>
+
           {/* Work #1 */}
           <div className="col-span-1 text-sm text-gray-700">
             <div>2019-07 - </div>
-            <div>Present</div>
-            <div className="mt-1 text-xs text-gray-500">3yrs</div>
+            <div>2020-08</div>
+            <div className="mt-1 text-xs text-gray-500">11mos</div>
           </div>
           <div className="col-span-3">
-            <h4 className="text-lg font-bold text-gray-800">Front-End Engineer</h4>
-            <p className="text-sm italic text-gray-700">UpWork, Freelancer, Remote</p>
+            <h4 className="text-lg font-bold text-gray-800">Front-End Developer</h4>
+            <p className="text-sm italic text-gray-700">UpWork, (freelancer)</p>
             <ul className="ml-4 list-disc">
               <li className="text-sm leading-normal text-gray-700">
-                Already collaborated on multiple projects ranging from responsive landing page
-                creation to robust systems with authentication, payment integration, and complex
-                state modeling
+                Development of various sites and applications
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Migration of a legacy app built with Redux and complex state to a simpler
+                architecture in ReactQuery
+              </li>
+              <li className="text-sm leading-normal text-gray-700">
+                Performance improvement by replacing MUI with Tailwind + Radix. Lighhouse scores
+                more than doubled
               </li>
             </ul>
           </div>
-          {/* Work #1 */}
-          <div className="col-span-1 text-sm text-gray-700">
-            <div>2020-04 - </div>
-            <div>2022-05</div>
-            <div className="mt-1 text-xs text-gray-500">2yrs 2 mos</div>
-          </div>
-          <div className="col-span-3">
-            <h4 className="text-lg font-bold text-gray-800">Front-End JavaScript Engineer</h4>
-            <p className="text-sm italic text-gray-700">SweetRush Inc. Remote, US</p>
-            <ul className="ml-4 list-disc">
-              <li className="text-sm leading-normal text-gray-700">
-                Involved in the development of various multi-page sites, and landing pages for small
-                and mid-sized businesses. Worked with React, Next.js, HubSpot, WordPress and Shopify
-              </li>
-              <li className="text-sm leading-normal text-gray-700">
-                Also worked as a in the development of a health care web app with offline capability
-                and complex architecture
-              </li>
-            </ul>
-          </div>
+
           {/* Work #2 */}
           <div className="col-span-1 text-sm text-gray-700">
             <div>2017-04 - </div>
             <div>2019-07</div>
-            <div className="mt-1 text-xs text-gray-500">2yrs 4 mos</div>
+            <div className="mt-1 text-xs text-gray-500">2yrs 4mos</div>
           </div>
           <div className="col-span-3">
-            <h4 className="text-lg font-bold text-gray-800">Full Stack Engineer</h4>
-            <p className="text-sm italic text-gray-700">Prevedello Sistems, Brazil</p>
+            <h4 className="text-lg font-bold text-gray-800">Full Stack Desktop Developer</h4>
+            <p className="text-sm italic text-gray-700">Prevedello Sistemas, Brazil (on-site)</p>
             <ul className="ml-4 list-disc">
               <li className="text-sm leading-normal text-gray-700">
-                Worked along with the team in the maintenance and development of new features for
-                the company&apos;s ERP (Enterprise resource planning) and database modeling
+                Maintenance and development of ERP and POS systems
               </li>
               <li className="text-sm leading-normal text-gray-700">
-                Performed integration with 3rd party APIs (warehouse, stock management, e-commerce,
-                etc) and Testing/QA routines
+                API integrations with warehouse and e-commerces
               </li>
             </ul>
           </div>
+
           {/* Work #3 */}
           <div className="col-span-1 text-sm text-gray-700">
             <div>2016-03 - </div>
             <div>2017-04</div>
-            <div className="mt-1 text-xs text-gray-500">1yr 2 mos</div>
+            <div className="mt-1 text-xs text-gray-500">1yr 2mos</div>
           </div>
           <div className="col-span-3">
             <h4 className="text-lg font-bold text-gray-800">Technical Support Analyst</h4>
-            <p className="text-sm italic text-gray-700">Prevedello Sistems, Brazil</p>
+            <p className="text-sm italic text-gray-700">Prevedello Sistemas, Brazil (on-site)</p>
             <ul className="ml-4 list-disc">
               <li className="text-sm leading-normal text-gray-700">
                 Evaluate user problems, respond to support requests and patiently walk individuals
@@ -173,11 +212,11 @@ const CV = forwardRef<HTMLDivElement>((props, ref) => {
         </div>
         <div className="mt-4 grid grid-cols-4">
           <div className="col-span-1 text-sm text-gray-700">
-            <div>2014-06 - </div>
-            <div>2017-05</div>
+            <div>2015-06 - </div>
+            <div>2020-05</div>
           </div>
           <div className="col-span-3">
-            <h4 className="text-lg font-bold">Bachelor of Computer Science</h4>
+            <h4 className="text-lg font-bold">BSc Computer Science</h4>
             <p className="text-sm italic text-gray-700">URI - Frederico Westphalen, RS, Brazil</p>
           </div>
         </div>

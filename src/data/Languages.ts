@@ -1,4 +1,4 @@
-import { type Skill } from "./Skills";
+import { type Skill } from "./Skills"
 
 export const LANGUAGES: Skill[] = [
   {
@@ -7,10 +7,6 @@ export const LANGUAGES: Skill[] = [
   },
   {
     name: "English",
-    rating: "very_good",
+    rating: "advanced",
   },
-  {
-    name: "Spanish",
-    rating: "beginner",
-  },
-];
+]

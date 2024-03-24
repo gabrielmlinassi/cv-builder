@@ -1,26 +1,26 @@
-export type Rating = "excelent" | "very_good" | "intermediate" | "beginner";
+export type Rating = "excelent" | "advanced" | "intermediate" | "beginner"
 
-export type Skill = { name: string; rating: Rating };
+export type Skill = { name: string; rating: Rating }
 
 export const SKILLS: Skill[] = [
   {
-    name: "React.js / Next.js",
+    name: "Javascript / TypeScript",
     rating: "excelent",
   },
   {
-    name: "Tailwind / CSS-in-JS / CSS",
+    name: "React / Next.js",
     rating: "excelent",
   },
   {
-    name: "JavaScript / TypeScript",
-    rating: "very_good",
+    name: "Node / Express",
+    rating: "advanced",
   },
   {
-    name: "Node.js / Express / Nest.js",
+    name: "React Native",
     rating: "intermediate",
   },
   {
-    name: "React Native / Python",
-    rating: "beginner",
+    name: "Shopify / WordPress / Strapi",
+    rating: "advanced",
   },
-];
+]
