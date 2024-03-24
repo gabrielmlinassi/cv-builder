@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@layer components {
+  .doc {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  @media (min-width: 640px) {
+    .doc {
+      flex-direction: row;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .doc {
+      height: 1056px;
+    }
+  }
+
+  .doc-side {
+    flex: 0 0 250px;
+  }
+
+  @media print {
+    .doc {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
+
+    .doc-side {
+      @apply h-screen;
+    }
+  }
+}

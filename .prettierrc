@@ -1,0 +1,7 @@
+{
+  "semi": false,
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
+  "experimentalTernaries": true,
+  "printWidth": 100
+}
